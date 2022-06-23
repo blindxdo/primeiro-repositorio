@@ -4,6 +4,6 @@ Para copiar o código em HTML:
 
 ```
 <html>
-<hl>meu primeiro arquivo em HTML</hl>
+<h1>meu primeiro arquivo em HTML</h1>
 </html>
 ```
