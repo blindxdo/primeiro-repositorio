@@ -34,11 +34,12 @@ main {
     transform: skew(-10deg);
 }
 
-.main_info div a {
+.acessar_ranking {
     background: var(--red);
+    border: 1px solid var(--red);
 }
 
-.main_info div button {
+.enviar_video {
     background: transparent;
     border: 1px solid var(--green);
 }
