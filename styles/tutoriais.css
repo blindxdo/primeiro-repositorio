@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+    .navigation_tutoriais, .main_oi, footer {
+    padding: 20px;
+}
+
+
+.navigation_tutoriais ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_tutoriais ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation_tutoriais ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navigation_tutoriais ul li a:hover {
+    color: #666;
+}
+
+.main_oi section {
+    margin-bottom: 30px;
+}
+
+/* Estilos específicos */
+.secao {
+    background-color: rgba(0, 140, 255, 0.493);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 500px;
+    width: 100%;
+    border: 2px solid rgb(4, 0, 255);
+}
+
+.site_oi {
+    color: var(--red);
+    text-decoration: none;
+}
+.site_oi:hover {
+    text-decoration: underline;
+}
+.main_oi {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Define a altura mínima da página para ocupar toda a tela */
+}
